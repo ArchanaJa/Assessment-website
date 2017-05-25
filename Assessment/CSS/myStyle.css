@@ -1,0 +1,115 @@
+body {
+
+        font-family: 'Ek Mukta', sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.container {
+
+    width: 80%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.top{
+   
+    height: 80px;
+    margin: auto;
+}
+
+.bgImage {
+
+    position: relative;
+    background-image: url(../images/background.jpg);    
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    /*width: 100% !important;*/
+    height: 60vh;
+    border-left: 20vw solid rgba(70,130,180, 1);
+   
+    border-right: 10vw solid rgba(70,130,180, 1);
+    background-attachment: fixed;   
+
+}
+.firstO {
+    background: rgba(70,130,180, 0.8);
+    height: 100%;
+    width: 7vw;
+    position: absolute;
+}
+.secondO {
+    background: rgba(70,130,180, 0.6);
+    width: 10vw;
+    position: absolute;
+    height: 100%;
+}
+.logo {
+
+    position: absolute;
+    top: 0px;
+   /* left: 200px;*/
+    width: 82px;
+    height: 82px;
+    float: left;
+}
+/*.searchmenu{
+    float: right;
+    
+}*/
+.lableS{
+    display: block;
+    position: absolute;
+    right: 25vw;
+    top: 5vh;
+    text-align: right;
+}
+.search{
+        position: absolute;
+    right: 10vw;
+    top: 6vh;
+}
+.navC {
+
+   
+
+}
+.navC ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 16%;
+    background-color: rgba(70,130,180, 1);
+    position: absolute;
+    height: 100%;
+    left: -11vw;
+    top: -15px;
+    margin: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 9px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #9fcae8;
+    margin: 4px;
+}
+.contactC{
+    border-bottom: none  ;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
